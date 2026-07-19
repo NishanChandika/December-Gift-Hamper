@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="warm_beverage_choice" table="x_1936024_decemb_0_gift_hamper_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>warm_beverage_choice</element>
+            <name>x_1936024_decemb_0_gift_hamper_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-19 11:02:54</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>warm_beverage_choice</sys_name>
+            <sys_package display_value="December Gift Hamper" source="x_1936024_decemb_0">1b9df627478a0710dd3a31b4116d43eb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="December Gift Hamper">1b9df627478a0710dd3a31b4116d43eb</sys_scope>
+            <sys_update_name>sys_choice_x_1936024_decemb_0_gift_hamper_request_warm_beverage_choice</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-19 11:02:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>warm_beverage_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>COFEE</label>
+            <language>en</language>
+            <name>x_1936024_decemb_0_gift_hamper_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-19 11:02:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-19 11:02:54</sys_updated_on>
+            <value>cofee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>warm_beverage_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CHOCOLATE</label>
+            <language>en</language>
+            <name>x_1936024_decemb_0_gift_hamper_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-19 11:02:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-19 11:02:54</sys_updated_on>
+            <value>chocolate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>warm_beverage_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TEA</label>
+            <language>en</language>
+            <name>x_1936024_decemb_0_gift_hamper_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-19 11:02:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-19 11:02:54</sys_updated_on>
+            <value>tea</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

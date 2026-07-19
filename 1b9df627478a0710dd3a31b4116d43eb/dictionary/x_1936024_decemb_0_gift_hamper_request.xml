@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="db19072f47ca0710dd3a31b4116d4331" label="Gift Hamper Request" max_length="40" name="x_1936024_decemb_0_gift_hamper_request" type="collection">
+        <element default="javascript:gs.getUserID();" display="true" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Employee" max_length="32" name="employee" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="T-Shirt Size" mandatory="true" max_length="40" name="t_shirt_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SMALL" sequence="0" value="small"/>
+                <element inactive_on_update="false" label="EXTRA LARGE" sequence="3" value="extra_large"/>
+                <element inactive_on_update="false" label="MEDIUM" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="LARGE" sequence="2" value="large"/>
+            </choice>
+        </element>
+        <element choice="3" label="Delivery Status" max_length="40" name="delivery_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PREPARING" sequence="0" value="preparing"/>
+                <element inactive_on_update="false" label="PREPARED" sequence="1" value="prepared"/>
+                <element inactive_on_update="false" label="DELIVERD" sequence="3" value="deliverd"/>
+                <element inactive_on_update="false" label="SHIPPED" sequence="2" value="shipped"/>
+            </choice>
+        </element>
+        <element choice="3" label="Wine Selection" mandatory="true" max_length="40" name="wine_selection" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RED" sequence="0" value="red"/>
+                <element inactive_on_update="false" label="WHITE" sequence="1" value="white"/>
+            </choice>
+        </element>
+        <element choice="3" label="Chocolate Flavor" mandatory="true" max_length="40" name="chocolate_flavor" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MILK" sequence="1" value="milk"/>
+                <element inactive_on_update="false" label="VANILA" sequence="0" value="vanila"/>
+                <element inactive_on_update="false" label="MASS" sequence="3" value="mass"/>
+                <element inactive_on_update="false" label="TOBLORON" sequence="4" value="tobloron"/>
+                <element inactive_on_update="false" label="COFEE" sequence="2" value="cofee"/>
+            </choice>
+        </element>
+        <element choice="3" label="Warm Beverage Choice" mandatory="true" max_length="40" name="warm_beverage_choice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="COFEE" sequence="0" value="cofee"/>
+                <element inactive_on_update="false" label="CHOCOLATE" sequence="1" value="chocolate"/>
+                <element inactive_on_update="false" label="TEA" sequence="2" value="tea"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
